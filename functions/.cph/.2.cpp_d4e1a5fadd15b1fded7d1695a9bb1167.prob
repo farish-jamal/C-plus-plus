@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"c:\\Users\\Shahid\\OneDrive\\Desktop\\C++\\functions\\2.cpp","tests":[{"id":1635830461795,"input":"13","output":"Prime"},{"id":1635830668958,"input":"22","output":"Non Prime"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Shahid\\OneDrive\\Desktop\\C++\\functions\\2.cpp","group":"local","local":true}
