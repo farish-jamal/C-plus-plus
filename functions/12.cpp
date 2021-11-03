@@ -8,12 +8,12 @@ int binary(int n){
    int binary_num = 0;
    int i = 0;
    while(n != 0){
-     int lastdigit = n%2;
-     binary_num = binary_num + lastdigit * pow(10, i);
-     n = n/2;
+     int lastdigit = n%10;
+     binary_num = binary_num + lastdigit * pow(8, i);
+     n = n/10;
      i++;
    }
-   //
+   // cout<<binary_num<<endl;
    return binary_num;
 }
 

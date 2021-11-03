@@ -1,1 +1,1 @@
-fac(n-r)*fac(r)
+pow(10, i)
