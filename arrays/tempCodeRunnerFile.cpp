@@ -1,1 +1,1 @@
-me(0));
+arr[small_pos];
