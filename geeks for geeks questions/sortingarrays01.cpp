@@ -1,4 +1,4 @@
-// SORTING IN AN ARRAY :
+// SORTING IN AN ARRAY (Bubble Sort):
 #include <bits/stdc++.h>
 using namespace std;
 
