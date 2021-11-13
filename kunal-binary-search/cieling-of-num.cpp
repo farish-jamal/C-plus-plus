@@ -1,7 +1,6 @@
 // Ceiling of a number.
 // arr = [2, 3, 5, 9, 14, 16, 18] ; target = 14
 
-// BINARY SEAARCH :
 #include<bits/stdc++.h>
 using namespace std;
 
