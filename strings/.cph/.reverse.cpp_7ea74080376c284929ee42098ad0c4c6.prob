@@ -1,0 +1,1 @@
+{"name":"Local: reverse","url":"c:\\Users\\Shahid\\OneDrive\\Desktop\\C++\\strings\\reverse.cpp","tests":[{"id":1637687455062,"input":"5\nhello","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Shahid\\OneDrive\\Desktop\\C++\\strings\\reverse.cpp","group":"local","local":true}

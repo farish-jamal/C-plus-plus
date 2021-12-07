@@ -1,0 +1,1 @@
+{"name":"Local: duplicate_string","url":"c:\\Users\\Shahid\\OneDrive\\Desktop\\C++\\strings\\duplicate_string.cpp","tests":[{"id":1637689565107,"input":"5\nhello","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Shahid\\OneDrive\\Desktop\\C++\\strings\\duplicate_string.cpp","group":"local","local":true}
