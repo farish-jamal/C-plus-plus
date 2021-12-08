@@ -8,7 +8,7 @@ void logic1(int n){
  int i = 0;
   while(n != 0){
    int digit = n%2;
-   ans = (digit * (int) (pow(10, i)+0.5)) + ans;
+   ans = (digit * (int) (pow(10, i)+ 0.5)) + ans;
    n = n/2;
    i++;
   }
