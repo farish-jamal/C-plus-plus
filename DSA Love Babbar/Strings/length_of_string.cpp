@@ -1,12 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+char toLowercase(char ch){
+ if(ch >= 'a' && ch <= 'z'){
+    return ch;
+ }else{
+  ch = ch - 'A' + 'a';
+ }
+ return ch;
+}
+
 // Checking for palindrome
 bool Ispalindrome(char name[], int n){
  int start = 0;
  int end = n-1;
  while(start < end){
-   if(name[start] != name[end]){
+   if(toLowercase(name[start]) != toLowercase(name[end])){
      return false;
    }else{
     start++;
@@ -38,11 +47,11 @@ int getLength(char name[]){
 
 int main(){
  char name[20];
- cin>>name;
+ cin >> name;
  int len = getLength(name);
- cout<<"Total Length : "<< len <<endl;
+ cout<< "Total Length : " << len << endl;
  reverseString(name,len);
  cout<< name << endl;
- cout<<"Palindrome : " << Ispalindrome(name, len) <<endl;
+ cout<< "Palindrome : " << Ispalindrome(name, len) <<endl;
  return 0;
 }
